@@ -7,19 +7,31 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C075EEF3253AEABC002E0C34 /* Candy+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = C075EEEF253AEABC002E0C34 /* Candy+CoreDataClass.swift */; };
+		C075EEF4253AEABC002E0C34 /* Candy+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = C075EEF0253AEABC002E0C34 /* Candy+CoreDataProperties.swift */; };
+		C075EEF5253AEABC002E0C34 /* Wizard+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = C075EEF1253AEABC002E0C34 /* Wizard+CoreDataClass.swift */; };
+		C075EEF6253AEABC002E0C34 /* Wizard+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = C075EEF2253AEABC002E0C34 /* Wizard+CoreDataProperties.swift */; };
 		C07EAE99253993F000F17A7D /* hufffffffApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C07EAE98253993F000F17A7D /* hufffffffApp.swift */; };
 		C07EAE9B253993F000F17A7D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C07EAE9A253993F000F17A7D /* ContentView.swift */; };
 		C07EAE9D253993F000F17A7D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C07EAE9C253993F000F17A7D /* Assets.xcassets */; };
 		C07EAEA0253993F000F17A7D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C07EAE9F253993F000F17A7D /* Preview Assets.xcassets */; };
+		C07EAEAA2539941200F17A7D /* asd.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C07EAEA82539941200F17A7D /* asd.xcdatamodeld */; };
+		C07EAEB0253996BA00F17A7D /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = C07EAEAF253996BA00F17A7D /* Utils.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		C075EEEF253AEABC002E0C34 /* Candy+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Candy+CoreDataClass.swift"; sourceTree = SOURCE_ROOT; };
+		C075EEF0253AEABC002E0C34 /* Candy+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Candy+CoreDataProperties.swift"; sourceTree = SOURCE_ROOT; };
+		C075EEF1253AEABC002E0C34 /* Wizard+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Wizard+CoreDataClass.swift"; sourceTree = SOURCE_ROOT; };
+		C075EEF2253AEABC002E0C34 /* Wizard+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Wizard+CoreDataProperties.swift"; sourceTree = SOURCE_ROOT; };
 		C07EAE95253993F000F17A7D /* hufffffff.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = hufffffff.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C07EAE98253993F000F17A7D /* hufffffffApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = hufffffffApp.swift; sourceTree = "<group>"; };
 		C07EAE9A253993F000F17A7D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		C07EAE9C253993F000F17A7D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C07EAE9F253993F000F17A7D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		C07EAEA1253993F000F17A7D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C07EAEA92539941200F17A7D /* CoreDataProject.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CoreDataProject.xcdatamodel; sourceTree = "<group>"; };
+		C07EAEAF253996BA00F17A7D /* Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,8 +64,14 @@
 		C07EAE97253993F000F17A7D /* hufffffff */ = {
 			isa = PBXGroup;
 			children = (
+				C075EEEF253AEABC002E0C34 /* Candy+CoreDataClass.swift */,
+				C075EEF0253AEABC002E0C34 /* Candy+CoreDataProperties.swift */,
+				C075EEF1253AEABC002E0C34 /* Wizard+CoreDataClass.swift */,
+				C075EEF2253AEABC002E0C34 /* Wizard+CoreDataProperties.swift */,
 				C07EAE98253993F000F17A7D /* hufffffffApp.swift */,
 				C07EAE9A253993F000F17A7D /* ContentView.swift */,
+				C07EAEAF253996BA00F17A7D /* Utils.swift */,
+				C07EAEA82539941200F17A7D /* asd.xcdatamodeld */,
 				C07EAE9C253993F000F17A7D /* Assets.xcassets */,
 				C07EAEA1253993F000F17A7D /* Info.plist */,
 				C07EAE9E253993F000F17A7D /* Preview Content */,
@@ -139,7 +157,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				C07EAE9B253993F000F17A7D /* ContentView.swift in Sources */,
+				C075EEF3253AEABC002E0C34 /* Candy+CoreDataClass.swift in Sources */,
 				C07EAE99253993F000F17A7D /* hufffffffApp.swift in Sources */,
+				C075EEF4253AEABC002E0C34 /* Candy+CoreDataProperties.swift in Sources */,
+				C07EAEAA2539941200F17A7D /* asd.xcdatamodeld in Sources */,
+				C07EAEB0253996BA00F17A7D /* Utils.swift in Sources */,
+				C075EEF6253AEABC002E0C34 /* Wizard+CoreDataProperties.swift in Sources */,
+				C075EEF5253AEABC002E0C34 /* Wizard+CoreDataClass.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -328,6 +352,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		C07EAEA82539941200F17A7D /* asd.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				C07EAEA92539941200F17A7D /* CoreDataProject.xcdatamodel */,
+			);
+			currentVersion = C07EAEA92539941200F17A7D /* CoreDataProject.xcdatamodel */;
+			path = asd.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = C07EAE8D253993F000F17A7D /* Project object */;
 }
